@@ -1,0 +1,107 @@
+body{
+    background-color: beige;
+    color: brown;
+    margin: 0;
+    font-size: 13px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#cabecera{
+    background-color: blue;
+}
+
+#cabecera h1{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+nav{
+    background-color: aqua;
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li{
+    display: inline;
+   
+   
+}
+
+nav ul li a{
+    font-size: 28px;
+    padding: 8px 10px;
+    text-decoration: none;
+    display: inline-block;
+    
+}
+
+nav ul li a:hover{
+    background-color: black;
+    color: chartreuse;
+}
+
+#contenedor-imagen{
+    background-image: url(./img/cielo.jpeg);
+    height: 280px;
+    background-position: center;
+    margin-bottom: 30px;
+}
+
+#contenedor-imagen .imagen h1{
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    padding-top: 25px;
+    margin: 0;
+}
+
+.contenedor{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#contenedor-texto{
+    float: left;
+    width: 70%;
+    box-sizing: border-box;
+    padding: 0px 30px;
+}
+
+#barra{
+    float: right;
+    width: 30%;
+    background-color: deepskyblue;
+    color:black;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#inferior{
+    background-color: blue;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    margin-top: 50px;
+}
+
+@media(max-with:650px){
+    #contenedor-texto{
+        width: 100%;
+        float: none;
+    }
+
+    #barra{
+        width: 100px;
+        float: none;
+    }
+}
